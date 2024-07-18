@@ -1,0 +1,118 @@
+!<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <header>
+              <!-- place navbar here -->
+              <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <a class="navbar-brand" href="#">Tech Solutions</a>
+                  <ul class="navbar-nav mr-auto mt-4 mr-4 mt-lg-0 me-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./techsolu.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </header>
+
+
+        <div class="container my-5 mt-5 mb-5 p-4 bg-warning text-white rounded">
+          <div class="row">
+          <div class="col-md-8">
+             <main class="container my-4 bg-success text-white p-3 rounded">
+              <h2 class="h4">Contact Me</h2>
+      
+              <form action="/submit" method="post" class="p-3 rounded">
+                  <fieldset>
+                      <legend class="h6">Contact Information</legend>
+                      
+                      <label for="full-name">Full Name:</label>
+                      <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+                      
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                      
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}">
+
+                      <label for="service">Service Name:</label>
+                      <input type="text" id="service" name="service" placeholder="Enter the service you wish to avail">
+                  </fieldset>
+      
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="6" cols="50" placeholder="Your message here" required></textarea>
+                  
+                  <button type="submit">Submit</button>
+              </form>     
+            </main>
+          </div>
+
+          <div class="col-md-4">
+            <aside class="p-5" style="background-color:#0f0303;">
+                <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+                  <li class="nav-item"> <a href="#" class="nav-link active py-3 border-bottom"> <i class="fa fa-home"></i> <small>Home</small> </a> </li>
+                  <li> <a href="#" class="nav-link py-3 border-bottom"> <i class="fa fa-dashboard"></i> <small>Dashboard</small> </a> </li>
+                  <li> <a href="#" class="nav-link py-3 border-bottom"> <i class="fa fa-first-order"></i> <small>My Orders</small> </a> </li>
+                  <li> <a href="#" class="nav-link py-3 border-bottom"> <i class="fa fa-cog"></i> <small>Settings</small> </a> </li>
+                  <li> <a href="#" class="nav-link py-3 border-bottom"> <i class="fa fa-bookmark"></i> <small>Bookmark</small> </a> </li>
+                </ul>
+                
+          </aside>
+        </div>
+        </div>
+        </div>
+        
+        <footer class="container-fluid py-3 mt-5 text-center bg-dark">
+          <p class="text-white">&copy; 2024 Coding Temple. All rights reserved.</p>
+      </footer>
+      </body>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
